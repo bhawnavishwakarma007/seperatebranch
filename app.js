@@ -1,6 +1,6 @@
 const http = require("http");
 
-const PORT = 3004;
+const PORT = 3003;
 
 const server = http.createServer((req, res) => {
   if (req.url === "/") {
